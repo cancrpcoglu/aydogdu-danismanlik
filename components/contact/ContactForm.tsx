@@ -19,13 +19,12 @@ export default function ContactForm() {
         setSuccess(false);
         setError(false);
 
-        emailjs
-            .sendForm(
-                "service_aikshdo",        // Service ID
-                "template_eobe8nn",      // Template ID
-                formRef.current,
-                "tst_7311B16W_H5vu"      // Public Key
-            )
+        emailjs.sendForm(
+            process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
+            process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
+            formRef.current!,
+            process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
+        )
             .then(() => {
                 setSuccess(true);
                 formRef.current?.reset();
