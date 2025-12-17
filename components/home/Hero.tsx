@@ -5,87 +5,113 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
     return (
-        <section id="home" className="max-w-7xl mx-auto px-6 pt-10 pb-20 grid md:grid-cols-2 gap-16 items-center">
-            {/* Hero Text */}
+        <section
+            id="home"
+            className="
+                max-w-7xl mx-auto
+                px-5 sm:px-6
+                pt-8 sm:pt-10
+                pb-16 sm:pb-20
+                grid grid-cols-1 md:grid-cols-2
+                gap-12 md:gap-16
+                items-center
+            "
+        >
+            {/* TEXT */}
             <motion.div
                 initial={{ opacity: 0, y: 40 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.7 }}
+                className="text-center md:text-left"
             >
-                <h1 className="text-9xl md:text-6xl font-serif font-bold text-[#0B1D39] leading-tight">
-                    Bilimin Işığında,<br />
-                    Sezginin Gücüyle<br />
+                <h1
+                    className="
+                        font-serif font-bold text-[#0B1D39]
+                        text-[44px] sm:text-[56px] md:text-6xl
+                        leading-tight tracking-tight
+                    "
+                >
+                    Bilimin Işığında,
+                    <br className="hidden md:block" />
+                    Sezginin Gücüyle
+                    <br className="hidden md:block" />
                     Gerçek Dönüşüm
                 </h1>
 
-                <p className="text-[#1b2a41] mt-6 text-lg leading-relaxed">
+                <p className="text-[#1b2a41] mt-6 text-base sm:text-lg leading-relaxed">
                     Gelişim Danışmanı, Eğitmen, Moderatör,
                 </p>
-                <p className="text-[#1b2a41] mt-0 text-lg leading-relaxed">
-                    CPCC Koç - Yetişkin, Ergen, İlişki, Yönetici ve Takım Koçu
+                <p className="text-[#1b2a41] text-base sm:text-lg leading-relaxed">
+                    CPCC Koç – Yetişkin, Ergen, İlişki, Yönetici ve Takım Koçu
                 </p>
 
-                {/* Hero ikonları */}
-                <div className="grid grid-cols-2 gap-4 mt-6 text-[#0B1D39]">
+                {/* ICON GRID */}
+                <div className="grid grid-cols-2 gap-4 mt-6 text-[#0B1D39] text-sm sm:text-base">
 
                     <div>
                         <p className="font-semibold">🎓 ODTÜ</p>
-                        <p className="text-sm text-[#1b2a41]">İktisat ve Sosyoloji</p>
+                        <p className="text-[#1b2a41]">İktisat & Sosyoloji</p>
                     </div>
 
                     <div>
                         <p className="font-semibold">📘 24+ Yıl</p>
-                        <p className="text-sm text-[#1b2a41]">Kurumsal Deneyim</p>
+                        <p className="text-[#1b2a41]">Kurumsal Deneyim</p>
                     </div>
 
                     <div>
                         <p className="font-semibold">🌍 ICF & CTI</p>
-                        <p className="text-sm text-[#1b2a41]">Küresel Sertifikasyon</p>
+                        <p className="text-[#1b2a41]">Küresel Sertifikasyon</p>
                     </div>
 
                     <div>
                         <p className="font-semibold">🏅 1200+ Saat</p>
-                        <p className="text-sm text-[#1b2a41]">Koçluk </p>
+                        <p className="text-[#1b2a41]">Koçluk</p>
                     </div>
+
                     <div>
-                        <p className="font-semibold"> 📚 1200+ Gün</p>
-                        <p className="text-sm text-[#1b2a41]">Eğitim ve Seminer</p>
+                        <p className="font-semibold">📚 1200+ Gün</p>
+                        <p className="text-[#1b2a41]">Eğitim & Seminer</p>
                     </div>
                 </div>
 
-                <p className="italic text-[#1b2a41] mt-8">
-                    “24 Yıllık Deneyim, ODTÜ’lü Bakış Açısı ve Global Koçluk Standartlarıyla Potansiyelinizi Harekete Geçirin.”
+                <p className="italic text-[#1b2a41] mt-8 text-sm sm:text-base">
+                    “24 Yıllık Deneyim, ODTÜ’lü Bakış Açısı ve Global Koçluk
+                    Standartlarıyla Potansiyelinizi Harekete Geçirin.”
                 </p>
 
-                <div className="flex gap-4 mt-10">
+                <div className="flex flex-col sm:flex-row gap-4 mt-10 justify-center md:justify-start">
                     <a
                         href="#services-preview"
-                        className="px-6 py-3 bg-[#D67C45] hover:bg-[#c96f3d] text-white rounded-md transition"
+                        className="px-6 py-3 bg-[#D67C45] hover:bg-[#c96f3d] text-white rounded-md transition text-center"
                     >
                         Hizmetlere Göz At
                     </a>
 
                     <a
                         href="/contact"
-                        className="px-6 py-3 border border-[#0B1D39] text-[#0B1D39] rounded-md hover:bg-[#0B1D39] hover:text-white transition"
+                        className="px-6 py-3 border border-[#0B1D39] text-[#0B1D39] rounded-md hover:bg-[#0B1D39] hover:text-white transition text-center"
                     >
                         İletişime Geç
                     </a>
                 </div>
             </motion.div>
 
-            {/* Image */}
+            {/* IMAGE */}
             <motion.div
                 initial={{ opacity: 0, x: 40 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.7, delay: 0.2 }}
-                className="relative w-full h-[480px] rounded-2xl overflow-hidden shadow-lg"
+                className="
+                    relative w-full
+                    h-[360px] sm:h-[420px] md:h-[480px]
+                    rounded-2xl overflow-hidden shadow-lg
+                "
             >
                 <Image
                     src="/profile.jpg"
                     alt="Irmak Aydoğdu"
                     fill
-                    className="object-cover object-[50%_69%]"
+                    className="object-cover object-[50%_65%]"
                     quality={96}
                     priority
                 />
