@@ -14,6 +14,11 @@ export default function ContactForm() {
     const sendEmail = (e: React.FormEvent) => {
         e.preventDefault();
 
+        // 🔎 DEBUG – console'da kontrol et
+        console.log("SERVICE_ID:", process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID);
+        console.log("TEMPLATE_ID:", process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID);
+        console.log("PUBLIC_KEY:", process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY);
+
         if (!formRef.current) return;
 
         setSuccess(false);
@@ -25,7 +30,10 @@ export default function ContactForm() {
             formRef.current!,
             process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
         )
-            .then(() => {
+            .then((res) => {
+                // 🔵 BURAYA EKLEDİK
+                console.log("✅ EmailJS SUCCESS:", res);
+
                 setSuccess(true);
                 formRef.current?.reset();
 
@@ -33,7 +41,10 @@ export default function ContactForm() {
                     setSuccess(false);
                 }, 4000);
             })
-            .catch(() => {
+            .catch((err) => {
+                // 🔴 BURAYA EKLEDİK
+                console.error("❌ EmailJS ERROR:", err);
+
                 setError(true);
 
                 setTimeout(() => {
