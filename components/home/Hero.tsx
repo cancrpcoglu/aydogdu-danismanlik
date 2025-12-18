@@ -50,7 +50,7 @@ export default function Hero() {
 
                     <div>
                         <p className="font-semibold">🎓 ODTÜ</p>
-                        <p className="text-[#1b2a41]">İktisat & Sosyoloji</p>
+                        <p className="text-[#1b2a41]">İktisat ve Sosyoloji</p>
                     </div>
 
                     <div>
@@ -70,7 +70,7 @@ export default function Hero() {
 
                     <div>
                         <p className="font-semibold">📚 1200+ Gün</p>
-                        <p className="text-[#1b2a41]">Eğitim & Seminer</p>
+                        <p className="text-[#1b2a41]">Eğitim ve Seminer</p>
                     </div>
                 </div>
 
