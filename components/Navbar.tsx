@@ -36,16 +36,16 @@ export default function Navbar() {
                     <Link href="/">Anasayfa</Link>
                     <Link href="/about">Hakkımda</Link>
                     <Link href="/services">Hizmetler</Link>
-                    <Link href="/speaker">Konuşmacı</Link>
+                    <Link href="/speaker">Galeri</Link>
                     <Link href="/blog">Blog</Link>
                     <Link href="/contact">İletişim</Link>
                     <a
                         href="https://calendly.com/irmakaydo/web-gorusme"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="ml-2 px-2 py-1 rounded-lg bg-[#E07A3F] text-white font-medium hover:opacity-80 transition"
+                        className="ml-auto px-2 py-1 rounded-lg bg-[#0f430f] text-white font-medium hover:opacity-80 transition"
                     >
-                        Görüşme Planla
+                        Randevu Al
                     </a>
 
                 </nav>

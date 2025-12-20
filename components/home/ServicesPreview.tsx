@@ -48,7 +48,7 @@ export default function ServicesPreview() {
                 >
                     <h3 className="text-2xl font-semibold text-[#0B1D39] mb-4">🧘 Bireysel Alanda</h3>
                     <ul className="text-[#1b2a41] list-disc pl-6 space-y-2">
-                        <li>Profesyonel ve Kariyer Koçluğu
+                        <li>Kariyer Koçluğu
                         </li>
                         <li>Öğrenci ve Genç Koçluğu</li>
                         <li>Yaşam Koçluğu

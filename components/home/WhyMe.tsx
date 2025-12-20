@@ -35,7 +35,7 @@ export default function WhyMe() {
                     danışmanlık tecrübelerim bana kurumsal dünyanın gerçeklerini öğretti.
                     Şimdiye kadar 20 binden fazla kişinin gelişim yolculuğuna eşlik etmiş olmaktan gurur duyuyorum.
                     Bugün ise 1.700 günün üzerinde eğitim, 1.200 saati aşkın koçluk deneyimim
-                    Bugün ise 1.200 saati aşkın koçluk deneyimim ve global yetkinliklerimle
+                    ve global yetkinliklerimle
                     bireylerin ve kurumların gelişim yolculuklarına rehberlik ediyorum.
                 </p>
 

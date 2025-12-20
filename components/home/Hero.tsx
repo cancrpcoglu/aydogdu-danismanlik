@@ -59,8 +59,8 @@ export default function Hero() {
                     </div>
 
                     <div>
-                        <p className="font-semibold">🌍 ICF & CTI</p>
-                        <p className="text-[#1b2a41]">Küresel Sertifikasyon</p>
+                        <p className="font-semibold">📚 1700+ Gün</p>
+                        <p className="text-[#1b2a41]">Eğitim ve Seminer</p>
                     </div>
 
                     <div>
@@ -68,10 +68,7 @@ export default function Hero() {
                         <p className="text-[#1b2a41]">Koçluk</p>
                     </div>
 
-                    <div>
-                        <p className="font-semibold">📚 1200+ Gün</p>
-                        <p className="text-[#1b2a41]">Eğitim ve Seminer</p>
-                    </div>
+
                 </div>
 
                 <p className="italic text-[#1b2a41] mt-8 text-sm sm:text-base">

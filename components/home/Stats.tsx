@@ -7,10 +7,10 @@ export default function SocialProof() {
             <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-4 gap-10 text-center">
 
                 {[
+                    { value: "2", label: "ODTÜ Diploması" },
                     { value: "24+", label: "Yıllık Kurumsal Deneyim" },
                     { value: "1200+", label: "Saat Koçluk Tecrübesi" },
-                    { value: "2", label: "ODTÜ Diploması" },
-                    { value: "ICF", label: "Global Koçluk Standartları" }
+                    { value: "1700+", label: "Gün Eğitim Deneyimi" }
                 ].map((stat, i) => (
                     <motion.div
                         key={i}

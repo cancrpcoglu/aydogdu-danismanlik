@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 export default function Strengths() {
     return (
-        <section className="max-w-6xl mx-auto px-5 py-15">
+        <section className="max-w-6xl mx-auto px-5 py-auto">
             <h3 className="max-w-6xl mx-auto text-3xl font-serif font-bold text-[#0B1D39] mb-8">Güçlü Yönlerim</h3>
 
             <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 text-[#0B1D39]">

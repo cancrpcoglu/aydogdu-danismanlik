@@ -50,8 +50,7 @@ export default function AboutHero() {
 
                         <p>
                             2014’ten bu yana kurucusu olduğum <strong>Aydoğdu Danışmanlık</strong> çatısı altında koçluk, eğitim
-                            ve danışmanlık hizmetleri sunuyorum. Danışanlarımın yüzeysel sorunların ötesine geçerek kendi özlerindeki potansiyel ve güçle yeniden bağ kurmalarını sağlamayı hedefliyorum. Her danışanımın hikayesi biricik. Bu yüzden gelişim süreçlerini bilimsel temellere dayanan, deneyimle harmanlanmış ve kişiye özel stratejilerle birlikte kurguluyoruz. Oldukları yerden olmak istedikleri yere uzanan bu yolculukta onlara rehberlik etmek; yaşamlarını daha odaklı ve anlamlı kılmalarını sağlamak benim en büyük hayat amacım.
-                        </p>
+                            ve danışmanlık hizmetleri sunuyorum. </p>
                     </motion.div>
 
                     {/* ======== Sağ: Fotoğraf ======== */}

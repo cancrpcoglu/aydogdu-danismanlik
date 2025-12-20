@@ -36,7 +36,7 @@ export default function CorporateServices() {
                     Yönetici ve Takım Koçluğu
                 </h3>
                 <p className="text-[#0B1D39]">
-                    ICF, CTI ve CRR Global standartlarında; yöneticilerinizin liderlik kaslarını güçlendiriyor, takımlarınızın "bireyler topluluğu" olmaktan çıkıp "sinerjik ve uyumlu bir takım" olmasına rehberlik ediyorum.
+                    CTI ve CRR Global standartlarında; yöneticilerinizin liderlik kaslarını güçlendiriyor, takımlarınızın "bireyler topluluğu" olmaktan çıkıp "sinerjik ve uyumlu bir takım" olmasına rehberlik ediyorum.
                 </p>
                 <ul className="list-disc ml-7 mt-3 text-[#0B1D39] text-m">
                     <li><strong>Uzmanlık: </strong> Üst Düzey Yönetici ve Yönetici Koçluğu, Takım Koçluğu, Takım Anlaşmaları,  Kriz ve Çatışma Yönetimi.</li>
