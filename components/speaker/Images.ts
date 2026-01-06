@@ -22,7 +22,6 @@ export const speakerImages: string[] = [
     "/speaker/s20.jpg",
     "/speaker/s21.jpg",
     "/speaker/s22.jpg",
-    "/speaker/s29.jpg",
     "/speaker/s23.jpg",
     "/speaker/s27.jpg",
     "/speaker/s28.jpg",

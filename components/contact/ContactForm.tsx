@@ -72,11 +72,11 @@ export default function ContactForm() {
                     {/* SOL */}
                     <div className="space-y-3 text-[#1b2a41]">
                         <p className="text-lg leading-relaxed">
-                            Hizmet verdiğim her kurumun ve her danışanımın hikayesi biricik.
+                            Hizmet verdiğim her kurumun ve her danışanımın hikâyesi biricik.
                             Sizin hikâyenizi birlikte parlatmak için sizi dinlemeye hazırım.
                         </p>
 
-                        <p className="text-right font-bold">Irmak Aydoğdu</p>
+                        <p className="text-right text-lg font-bold">Irmak Aydoğdu</p>
 
                         <div className="space-y-3 text-lg">
                             <p>📧 <strong>Email:</strong> irmak@aydogdudanismanlik.com</p>
