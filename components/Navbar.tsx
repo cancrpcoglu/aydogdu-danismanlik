@@ -61,7 +61,7 @@ export default function Navbar() {
                     <Link href="/" onClick={() => setOpen(false)}>Anasayfa</Link>
                     <Link href="/about" onClick={() => setOpen(false)}>Hakkımda</Link>
                     <Link href="/services" onClick={() => setOpen(false)}>Hizmetler</Link>
-                    <Link href="/speaker" onClick={() => setOpen(false)}>Konuşmacı</Link>
+                    <Link href="/speaker" onClick={() => setOpen(false)}>Galeri</Link>
                     <Link href="/blog" onClick={() => setOpen(false)}>Blog</Link>
                     <Link href="/contact" onClick={() => setOpen(false)}>İletişim</Link>
                 </div>
