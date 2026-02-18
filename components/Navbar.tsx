@@ -37,7 +37,7 @@ export default function Navbar() {
                     <Link href="/about">Hakkımda</Link>
                     <Link href="/services">Hizmetler</Link>
                     <Link href="/speaker">Galeri</Link>
-                    <Link href="/blog">Blog</Link>
+                    <Link href="/references">Referanslar</Link>
                     <Link href="/contact">İletişim</Link>
                     <a
                         href="https://calendly.com/irmakaydo/web-gorusme"
@@ -62,7 +62,7 @@ export default function Navbar() {
                     <Link href="/about" onClick={() => setOpen(false)}>Hakkımda</Link>
                     <Link href="/services" onClick={() => setOpen(false)}>Hizmetler</Link>
                     <Link href="/speaker" onClick={() => setOpen(false)}>Galeri</Link>
-                    <Link href="/blog" onClick={() => setOpen(false)}>Blog</Link>
+                    <Link href="/referanslar" onClick={() => setOpen(false)}>Referanslar</Link>
                     <Link href="/contact" onClick={() => setOpen(false)}>İletişim</Link>
                 </div>
             )}
