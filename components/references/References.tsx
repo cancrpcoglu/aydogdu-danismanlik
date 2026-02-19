@@ -9,7 +9,7 @@ type Category = {
 
 const categories: Category[] = [
     {
-        title: "1. Finans, Sigorta ve Bankacılık",
+        title: "Finans, Sigorta ve Bankacılık",
         companies: [
             "agesa",
             "allianz",
@@ -23,11 +23,11 @@ const categories: Category[] = [
         ],
     },
     {
-        title: "2. Teknoloji, Telekomünikasyon ve Bilişim",
+        title: "Teknoloji, Telekomünikasyon ve Bilişim",
         companies: ["kocsistem", "turkcell", "turktelekom", "vodafone"],
     },
     {
-        title: "3. Sanayi, Enerji ve Otomotiv",
+        title: "Sanayi, Enerji ve Otomotiv",
         companies: [
             "akdeniz-chemson",
             "borusan1",
@@ -42,7 +42,7 @@ const categories: Category[] = [
         ],
     },
     {
-        title: "4. Hızlı Tüketim, Hizmet ve Perakende",
+        title: "Hızlı Tüketim, Hizmet ve Perakende",
         companies: [
             "arcelik",
             "danone",
@@ -54,7 +54,7 @@ const categories: Category[] = [
         ],
     },
     {
-        title: "5. Sağlık ve İlaç",
+        title: "Sağlık ve İlaç",
         companies: ["bbraun", "boehringer"],
     },
 ];
@@ -66,7 +66,7 @@ export default function References() {
                 <div key={i} className="mb-20">
 
                     {/* KATEGORİ BAŞLIK */}
-                    <h2 className="text-3xl md:text-4xl font-semibold text-center mb-12">
+                    <h2 className="text-3xl font-bold text-[#0B1D39] text-center mb-12">
                         {category.title}
                     </h2>
 
